@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
     sentence.split
    reversed_sentence << sentence.split
   end
-  puts sentence.join(" ")
+  sentence.join(" ")
 end
